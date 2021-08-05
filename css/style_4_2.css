@@ -40,8 +40,11 @@ section {
 .b>p {
     background-color: #ddd;
     border: solid 1px black;
-    width: 33.3%;
-    height: 100%;
+    flex: 1;
+}
+
+.b>p:nth-child(2) {
+    flex: 2;
 }
 
 footer {
