@@ -40,8 +40,12 @@ section {
 .b>p {
     background-color: #ddd;
     border: solid 1px black;
-    width: 33.3%;
+    width: 25%;
     height: 100%;
+}
+
+.b>p:nth-child(2) {
+    width: 50%;
 }
 
 footer {
